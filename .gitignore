@@ -9,3 +9,9 @@ node_modules/
 
 #temp file
 temp.js
+
+#c8 coverage reports
+coverage/
+
+#mochawesome reports
+mochawesome-report/

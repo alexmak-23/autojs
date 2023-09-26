@@ -1,17 +1,26 @@
 {
-  "name": "autojs",
+  "name": "unit-testing",
   "version": "1.0.0",
-  "description": "Automation testing with Javascript",
+  "description": "Automation testing with Javascript - Unit testing",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "coverage": "c8 npm test",
+    "lint": "eslint ./ --fix"
   },
   "keywords": [],
   "author": "Aliaksei Makeichyk",
   "license": "ISC",
   "dependencies": {
+    "c8": "^8.0.1",
     "chai": "^4.3.8",
+    "eslint-config-airbnb": "^19.0.4",
     "mocha": "^10.2.0",
+    "mochawesome": "^7.1.3",
     "save-dev": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "eslint": "^8.50.0",
+    "eslint-config-google": "^0.14.0"
   }
 }
