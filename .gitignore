@@ -6,3 +6,6 @@ node_modules/
 
 # Backup files
 *.bak
+
+#temp file
+temp.js
