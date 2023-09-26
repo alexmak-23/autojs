@@ -4,9 +4,14 @@
   "description": "Automation testing with Epam",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "keywords": [],
   "author": "Aliaksei Makeichyk",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.8",
+    "mocha": "^10.2.0",
+    "save-dev": "^0.0.1-security"
+  }
 }

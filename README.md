@@ -1,2 +1,2 @@
 # autojs
-Automation testing with Epam
+Automation testing with Javascript
